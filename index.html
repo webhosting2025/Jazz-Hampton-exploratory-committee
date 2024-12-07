@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jazz Hampton for Mayor</title>
+    <title>Exploratory Committee for Jazz Hampton</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -18,6 +18,7 @@
         header img {
             width: 100%;
             height: auto;
+            max-height: 300px; /* Reduced the height of the image */
             object-fit: cover;
         }
         header .overlay {
@@ -33,7 +34,7 @@
             align-items: center;
         }
         header h1 {
-            font-size: 3rem;
+            font-size: 2.5rem;
             margin: 0;
         }
         header p {
@@ -56,6 +57,9 @@
             display: block;
             margin-bottom: 10px;
             font-size: 1rem;
+        }
+        label b {
+            font-weight: bold;
         }
         input[type="checkbox"] {
             margin-right: 10px;
@@ -87,37 +91,71 @@
 <header>
     <img src="headshot2024.jpg" alt="Jazz Hampton">
     <div class="overlay">
-        <h1>Jazz Hampton for Mayor</h1>
+        <h1>Exploratory Committee for Jazz Hampton</h1>
         <p>Your Support Makes a Difference!</p>
     </div>
 </header>
 
 <section>
     <h2>How Would You Like to Help?</h2>
-    <form action="https://forms.gle/ytKbV3fSguxAPNvt9" method="POST">
+    <form action="https://forms.gle/Rqq6vaeXtcxUqiH89" method="POST">
         <h3>1. Volunteering Time</h3>
-        <label><input type="checkbox" name="volunteering" value="Canvassing"> Canvassing: Knock on doors to talk to residents about the campaign.</label>
-        <label><input type="checkbox" name="volunteering" value="Phone Banking"> Phone Banking: Call voters to share your message and answer questions.</label>
-        <label><input type="checkbox" name="volunteering" value="Text Banking"> Text Banking: Send campaign updates or reminders via text messages.</label>
-        <label><input type="checkbox" name="volunteering" value="Event Staffing"> Event Staffing: Help with setup, logistics, and coordination during campaign events.</label>
-        <label><input type="checkbox" name="volunteering" value="Data Entry"> Data Entry: Assist with managing voter data and contact information.</label>
-        <label><input type="checkbox" name="volunteering" value="Neighborhood Organizing"> Neighborhood Organizing: Coordinate outreach in specific neighborhoods or communities.</label>
-        <label><input type="checkbox" name="volunteering" value="Driver/Transport Support"> Driver/Transport Support: Drive canvassers or supplies to various locations.</label>
+        <label><b>Canvassing:</b> Knock on doors to talk to residents about the campaign.</label>
+        <label><b>Phone Banking:</b> Call voters to share your message and answer questions.</label>
+        <label><b>Text Banking:</b> Send campaign updates or reminders via text messages.</label>
+        <label><b>Event Staffing:</b> Help with setup, logistics, and coordination during campaign events.</label>
+        <label><b>Data Entry:</b> Assist with managing voter data and contact information.</label>
+        <label><b>Neighborhood Organizing:</b> Coordinate outreach in specific neighborhoods or communities.</label>
+        <label><b>Driver/Transport Support:</b> Drive canvassers or supplies to various locations.</label>
 
         <h3>2. Leveraging Skills</h3>
-        <label><input type="checkbox" name="skills" value="Social Media"> Social Media: Create, post, or manage content for your campaign platforms.</label>
-        <label><input type="checkbox" name="skills" value="Graphic Design"> Graphic Design: Design flyers, posters, or digital assets.</label>
-        <label><input type="checkbox" name="skills" value="Photography/Videography"> Photography/Videography: Capture campaign events and create promotional videos.</label>
-        <label><input type="checkbox" name="skills" value="Writing"> Writing: Draft press releases, blog posts, or other campaign content.</label>
-        <label><input type="checkbox" name="skills" value="Legal Support"> Legal Support: Provide advice or review campaign compliance with local laws.</label>
-        <label><input type="checkbox" name="skills" value="Tech/IT Support"> Tech/IT Support: Help set up websites, apps, or other tech tools.</label>
+        <label><b>Social Media:</b> Create, post, or manage content for your campaign platforms.</label>
+        <label><b>Graphic Design:</b> Design flyers, posters, or digital assets.</label>
+        <label><b>Photography/Videography:</b> Capture campaign events and create promotional videos.</label>
+        <label><b>Writing:</b> Draft press releases, blog posts, or other campaign content.</label>
+        <label><b>Legal Support:</b> Provide advice or review campaign compliance with local laws.</label>
+        <label><b>Tech/IT Support:</b> Help set up websites, apps, or other tech tools.</label>
+
+        <h3>3. Networking and Advocacy</h3>
+        <label><b>Hosting Fundraisers:</b> Organize or host a small event to raise campaign funds.</label>
+        <label><b>Community Advocacy:</b> Share your campaign with their networks or community organizations.</label>
+        <label><b>Endorsements:</b> Offer public support or connect you with potential endorsers.</label>
+        <label><b>Policy Feedback:</b> Provide input on key issues, especially if you have expertise in specific areas.</label>
+
+        <h3>4. Donations and Fundraising</h3>
+        <label><b>Personal Contributions:</b> Donate directly to the campaign.</label>
+        <label><b>Donor Recruitment:</b> Help identify and approach potential large donors.</label>
+        <label><b>In-Kind Donations:</b> Offer goods or services, such as food, space, or printing.</label>
+
+        <h3>5. Providing Resources</h3>
+        <label><b>Meeting Space:</b> Offer a space for campaign meetings or events.</label>
+        <label><b>Printing Services:</b> Provide free or discounted printing for materials.</label>
+        <label><b>Housing Volunteers:</b> Offer accommodations for out-of-town volunteers.</label>
+        <label><b>Food and Beverages:</b> Supply snacks or meals for campaign events or team members.</label>
+
+        <h3>6. Specific Community Engagement</h3>
+        <label><b>Language Skills:</b> Translate materials or interpret for non-English-speaking constituents.</label>
+        <label><b>Cultural Outreach:</b> Help connect the campaign to diverse cultural or community groups.</label>
+        <label><b>Youth Engagement:</b> Work on initiatives to get young voters involved.</label>
+
+        <h3>7. Advisory or Leadership Roles</h3>
+        <label><b>Advisory Board Member:</b> Join a formal group to provide strategic guidance.</label>
+        <label><b>Field Team Leader:</b> Organize and supervise canvassing or other fieldwork teams.</label>
+        <label><b>Policy Advisor:</b> Provide input on issue-specific platforms or proposals.</label>
+        <label><b>Fundraising Committee:</b> Collaborate on high-level fundraising strategies.</label>
+
+        <h3>8. General Support</h3>
+        <label><b>Yard Signs:</b> Place campaign signs at your home or distribute them to others.</label>
+        <label><b>Word of Mouth:</b> Commit to telling friends and family about the campaign.</label>
+        <label><b>Social Media Advocacy:</b> Share campaign updates, hashtags, and events online.</label>
+        <label><b>Feedback Provider:</b> Share thoughts on campaign strategies or messaging.</label>
 
         <button type="submit">Submit</button>
     </form>
 </section>
 
 <footer>
-    <p>Paid for by Jazz Hampton for Mayor Campaign</p>
+    <p>Paid for by the Exploratory Committee for Jazz Hampton</p>
 </footer>
 
 </body>
