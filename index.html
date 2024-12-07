@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jazz Hampton for Mayor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        header img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        form h3 {
+            margin-top: 0;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Headshot2024.jpg" alt="Jazz Hampton">
+    <div class="overlay">
+        <h1>Jazz Hampton for Mayor</h1>
+        <p>Your Support Makes a Difference!</p>
+    </div>
+</header>
+
+<section>
+    <h2>How Would You Like to Help?</h2>
+    <form action="https://docs.google.com/document/d/1MLygkxaAquv48LD58JAwqtWOTcGR6d_GPH2qX8yaUMY/edit?tab=t.0" method="POST">
+        <h3>1. Volunteering Time</h3>
+        <label><input type="checkbox" name="volunteering" value="Canvassing"> Canvassing: Knock on doors to talk to residents about the campaign.</label>
+        <label><input type="checkbox" name="volunteering" value="Phone Banking"> Phone Banking: Call voters to share your message and answer questions.</label>
+        <label><input type="checkbox" name="volunteering" value="Text Banking"> Text Banking: Send campaign updates or reminders via text messages.</label>
+        <label><input type="checkbox" name="volunteering" value="Event Staffing"> Event Staffing: Help with setup, logistics, and coordination during campaign events.</label>
+        <label><input type="checkbox" name="volunteering" value="Data Entry"> Data Entry: Assist with managing voter data and contact information.</label>
+        <label><input type="checkbox" name="volunteering" value="Neighborhood Organizing"> Neighborhood Organizing: Coordinate outreach in specific neighborhoods or communities.</label>
+        <label><input type="checkbox" name="volunteering" value="Driver/Transport Support"> Driver/Transport Support: Drive canvassers or supplies to various locations.</label>
+
+        <h3>2. Leveraging Skills</h3>
+        <label><input type="checkbox" name="skills" value="Social Media"> Social Media: Create, post, or manage content for your campaign platforms.</label>
+        <label><input type="checkbox" name="skills" value="Graphic Design"> Graphic Design: Design flyers, posters, or digital assets.</label>
+        <label><input type="checkbox" name="skills" value="Photography/Videography"> Photography/Videography: Capture campaign events and create promotional videos.</label>
+        <label><input type="checkbox" name="skills" value="Writing"> Writing: Draft press releases, blog posts, or other campaign content.</label>
+        <label><input type="checkbox" name="skills" value="Legal Support"> Legal Support: Provide advice or review campaign compliance with local laws.</label>
+        <label><input type="checkbox" name="skills" value="Tech/IT Support"> Tech/IT Support: Help set up websites, apps, or other tech tools.</label>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>Paid for by Jazz Hampton for Mayor Campaign</p>
+</footer>
+
+</body>
+</html>
